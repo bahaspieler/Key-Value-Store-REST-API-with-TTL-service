@@ -1,5 +1,6 @@
 # KeyValue_Store
 This Django REST API provides a model that can store keys and values. Every model instance has TTL of 5 minuetes or whatever you want to.
+The TTL get reset everytime any data is being get, put, patch, and even searched.
 
 ## Getting Started
 Go through the below instructions to get started with this project.
@@ -7,7 +8,7 @@ Go through the below instructions to get started with this project.
 ### Installation
 Clone the github repository.
 
-    git clone 
+    git clone https://github.com/bahaspieler/Key-Value-Store-REST-API-with-TTL-service.git
 
 Activate a new virtual environment.
 
@@ -44,8 +45,20 @@ Can even test the app.
 The custom management command that is doing the TTL service is located here.
 
     KeyValue_Store/store_api/management/commands/ttl.py    
+
+Access to the api using,
+
+    http://127.0.0.1:8000/api/store/    
+ 
+Get the Value using the primary key,
+
+    http://127.0.0.1:8000/api/store/primarykeyhere  
     
+Also can query with keys and values by,
+
+    http://127.0.0.1:8000/api/store/?q=key or value 
+       
 ## Built With
 
-  #####[Django](https://www.djangoproject.com/)
-  #####[Django REST Framework](https://www.django-rest-framework.org/)
+  ##### [Django](https://www.djangoproject.com/)
+  ##### [Django REST Framework](https://www.django-rest-framework.org/)
