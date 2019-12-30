@@ -9,4 +9,4 @@ MANAGE_BASE = os.path.join(BASE, 'manage.py')
 
 while True:
     call(['python', MANAGE_BASE, 'ttl'])
-    sleep(5)
+    sleep(300)

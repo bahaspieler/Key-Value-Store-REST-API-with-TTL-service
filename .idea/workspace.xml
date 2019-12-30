@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f07e36e-b3b6-4b8a-b28b-a01418642ff5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Key-Value-Store-REST-API-with-TTL-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store_api/management/commands/ttl.py" beforeDir="false" afterPath="$PROJECT_DIR$/store_api/management/commands/ttl.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="51">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/background.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store_api/management/commands/ttl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,6 +55,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/background.py" />
+        <option value="$PROJECT_DIR$/store_api/management/commands/ttl.py" />
       </list>
     </option>
   </component>
@@ -58,6 +78,29 @@
             <path>
               <item name="Key-Value-Store-REST-API-with-TTL-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="Key-Value-Store-REST-API-with-TTL-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="462c0819:PsiDirectoryNode" />
+              <item name="KeyValue_Store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="462c0819:PsiDirectoryNode" />
+              <item name="store_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="462c0819:PsiDirectoryNode" />
+              <item name="store_api" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Key-Value-Store-REST-API-with-TTL-service" type="462c0819:PsiDirectoryNode" />
+              <item name="store_api" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,9 +165,26 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store_api/management/commands/ttl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
